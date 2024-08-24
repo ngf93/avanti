@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Noah Light"),
+    local("Noah-Light"),
+    url("Noah-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Noah-Regular.eot");
+    src: local("Noah Regular"),
+    local("Noah-Regular"),
+    url("Noah-Regular.eot?#iefix") format("ie9-skip-eot"),
+    url("Noah-Regular.woff2") format("woff2"),
+    url("Noah-Regular.woff") format("woff"),
+    url("Noah-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Noah Medium"),
+    local("Noah-Medium"),
+    url("Noah-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: 700;
+    src: url("Noah-Bold.eot");
+    src: local("Noah Bold"),
+    local("Noah-Bold"),
+    url("Noah-Bold.eot?#iefix") format("ie9-skip-eot"),
+    url("Noah-Bold.woff2") format("woff2"),
+    url("Noah-Bold.woff") format("woff"),
+    url("Noah-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: 800;
+    src: local("Noah ExtraBold"),
+    local("Noah-ExtraBold"),
+    url("Noah-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: 900;
+    src: local("Noah Heavy"),
+    local("Noah-Heavy"),
+    url("Noah-Heavy.ttf") format("truetype");
+}
