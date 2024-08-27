@@ -22,9 +22,9 @@
         --fs-xxl: 36px;
     }
 }
-// html {
-//     scroll-behavior: smooth;
-// }
+html {
+    scroll-behavior: smooth;
+}
 $accent: #F1DEA9;
 $accent-darker: #E3CE93;
 @mixin flex($dir: row, $x: center, $y: center, $wrap: nowrap) {
@@ -229,6 +229,10 @@ button {
         height: 100%;
         object-fit: contain;
     }
+    @media (max-width:575.98px) {
+        width: 30px;
+        height: 35px;
+    }
 }
 .carousel-control-prev {
     transform: translateX(-50%);
@@ -321,6 +325,7 @@ button {
         position: absolute;
         z-index: 7;
         top: var(--radius);
+        max-width: 130px;
         @media (max-width:991.98px) {
             display: none;
         }
@@ -344,9 +349,16 @@ button {
         border-radius: var(--fs-xs);
         @include safariFix();
         background-color: rgba($color: #000000, $alpha: 0.69);
-        padding: var(--fs-xxl) var(--fs-lg);
+        padding: var(--fs-xxl) 50px;
         opacity: 0;
         transition: opacity var(--transition);
+        @media (max-width:991.98px) {
+            padding: var(--fs-xl);
+        }
+        @media (max-width:575.98px) {
+            --fs-md: 14px;
+            padding: var(--fs-lg);
+        }
     }
     &__inner2 {
         position: absolute;
@@ -386,13 +398,16 @@ button {
                 width: 100%;
                 color: #000;
                 @media (max-width:575.98px) {
-                    flex-direction: column;
-                    gap: 9px;
+                    gap: 3px;
+                    font-size: 11px;
                 }
                 li {
                     @include flex();
                     gap: 9px;
                     span {flex: 1;}
+                    @media (max-width:575.98px) {
+                        gap: 3px;
+                    }
                 }
                 &-sale {
                     width: var(--fs-lg);
