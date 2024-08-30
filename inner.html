@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <title>Avanti</title>
+</head>
+<body>
+    <main>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <header>
+                        <div class="container d-flex justify-content-between align-items-center">
+                            <a href="index.html">
+                                <img src="imgs/logo.png" alt="Avanti" class="logo">
+                            </a>
+                            <div class="offcanvas-xl offcanvas-end" tabindex="-1" id="offcanvasMenu">
+                                <div class="offcanvas-body position-relative">
+                                    <button type="button" class="btn-close d-xl-none" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasMenu" aria-label="Close">
+                                        <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M6.2253 4.81108C5.83477 4.42056 5.20161 4.42056 4.81108 4.81108C4.42056 5.20161 4.42056 5.83477 4.81108 6.2253L10.5858 12L4.81114 17.7747C4.42062 18.1652 4.42062 18.7984 4.81114 19.1889C5.20167 19.5794 5.83483 19.5794 6.22535 19.1889L12 13.4142L17.7747 19.1889C18.1652 19.5794 18.7984 19.5794 19.1889 19.1889C19.5794 18.7984 19.5794 18.1652 19.1889 17.7747L13.4142 12L19.189 6.2253C19.5795 5.83477 19.5795 5.20161 19.189 4.81108C18.7985 4.42056 18.1653 4.42056 17.7748 4.81108L12 10.5858L6.2253 4.81108Z" fill="currentColor"></path></svg>
+                                    </button>
+                                    <nav>
+                                        <ul >
+                                            <li>
+                                                <a href="#plan" class="menu-link">Генплан</a>
+                                            </li>
+                                            <li>
+                                                <a href="#construction" class="menu-link">Ход строительства</a>
+                                            </li>
+                                            <li>
+                                                <a href="#visualization" class="menu-link">Визуализация поселка</a>
+                                            </li>
+                                            <li>
+                                                <a href="#tour" class="menu-link">3D туры по дому</a>
+                                            </li>
+                                            <li>
+                                                <a href="#village-site" class="menu-link">Сайт поселка</a>
+                                            </li>
+                                            <li>
+                                                <a href="#house" class="menu-link">Рендеры домов</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            
+                            <div class="d-none d-sm-block d-xxl-flex align-items-center">
+                                <ul class="social justify-content-center">
+                                    <li><a href=""><img src="imgs/icons/viber.svg" alt="viber"></a></li>
+                                    <li><a href=""><img src="imgs/icons/wapp.svg" alt="wapp"></a></li>
+                                    <li><a href=""><img src="imgs/icons/tg.svg" alt="tg"></a></li>
+                                </ul>
+                                <a href="tel:+79879424488" class="d-block fs-md fw-5 ms-xxl-2 mt-2 mt-xxl-0">+7 987 942-44-88</a>
+                            </div>
+            
+                            <button type="button" id="openMenu" class="btn-mobileMenu d-xl-none">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="32px" width="32px" xmlns="http://www.w3.org/2000/svg"><path d="M27 193.6c-8.2-8.2-12.2-18.6-12.2-31.2s4-23 12.2-31.2S45.6 119 58.2 119h912.4c12.6 0 23 4 31.2 12.2s12.2 18.6 12.2 31.2-4 23-12.2 31.2-18.6 12.2-31.2 12.2H58.2c-12.6 0-23-4-31.2-12.2zm974.8 285.2c8.2 8.2 12.2 18.6 12.2 31.2s-4 23-12.2 31.2-18.6 12.2-31.2 12.2H58.2c-12.6 0-23-4-31.2-12.2S14.8 522.6 14.8 510s4-23 12.2-31.2 18.6-12.2 31.2-12.2h912.4c12.6 0 23 4 31.2 12.2zm0 347.4c8.2 8.2 12.2 18.6 12.2 31.2s-4 23-12.2 31.2-18.6 12.2-31.2 12.2H58.2c-12.6 0-23-4-31.2-12.2S14.8 870 14.8 857.4s4-23 12.2-31.2S45.6 814 58.2 814h912.4c12.6 0 23 4.2 31.2 12.2z"></path></svg>
+                            </button>
+                        </div>
+                    </header>
+            
+                    <section class="sec9">
+                        <div class="container">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Генплан</li>
+                                </ol>
+                            </nav>
+                            <h1 class="inner">Генплан</h1>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row justify-content-between align-items-center gx-4">
+                                <div class="col-lg-5 order-lg-2">
+                                    <img src="imgs/icons/map-mini.png" alt="map" class="img-fluid">
+                                    <h2 id="plan"><span>Генплан</span></h2>
+                                    <p>это документ, определяющий общую концепцию развития и планировку территории для строительства загородных поселений. Он включает расположение зон отдыха, дорог, зелёных насаждений, инфраструктуры и жилых зон. Генплан разрабатывается с учётом требований законодательства и утверждается государственными органами.</p>
+                                    <a href="" class="more">
+                                        <span>Подробнее</span>
+                                        <img src="imgs/icons/arrow.svg" alt="arrow">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 order-lg-1">
+                                    <div class="box">
+                                        <img src="imgs/img7.jpg" alt="map" class="box__bg">
+                                        <div class="box__inner">
+                                            <p>Это документ, определяющий общую концепцию развития и планировку территории для строительства загородных поселений.</p>
+                                            <div class="d-sm-flex mt-3">
+                                                <button type="button" class="btn-border fs-md me-sm-4 me-lg-5 mb-2 mb-sm-0">
+                                                    <img src="imgs/icons/play-button.svg" alt="play-button">
+                                                    <span>Видео о генплане</span>
+                                                </button>
+                                                <button type="button" class="btn-border fs-md">
+                                                    <img src="imgs/icons/gallery.svg" alt="play-button">
+                                                    <span>Примеры</span>
+                                                </button>
+                                            </div>
+                                            <a href="" class="more mt-3 mt-sm-4 mt-md-5">
+                                                <span>Подробнее</span>
+                                                <img src="imgs/icons/arrow.svg" alt="arrow">
+                                            </a>
+                                        </div>
+                                        <div class="box__control-full">
+                                            <ul class="indicator">
+                                                <li>
+                                                    <div class="indicator-sale"></div>
+                                                    <span>В продаже</span>
+                                                </li>
+                                                <li>
+                                                    <div class="indicator-booked"></div>
+                                                    <span>Забронирован</span>
+                                                </li>
+                                                <li>
+                                                    <div class="indicator-sold"></div>
+                                                    <span>Продан</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container mt-5 position-relative">
+                            <img src="imgs/icons/down.svg" alt="down" class="d-block icon-down mx-auto">
+                            <button type="button" class="btn-fill py-2 px-3 position-absolute bottom-0 end-0">
+                                <img src="imgs/icons/video.svg" alt="video">
+                                <span class="text-start lh-1">Видео демонстрация <br/>работы генплана</span>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-slide">
+                    <section class="sec10">
+                        <div class="container-fluid">
+                            <div class="row justify-content-between align-items-center gx-4">
+                                <div class="col-lg-5">
+                                    <img src="imgs/icons/map-mini.png" alt="map" class="img-fluid">
+                                    <h2 id="plan"><span>Генплан</span></h2>
+                                    <p>это документ, определяющий общую концепцию развития и планировку территории для строительства загородных поселений. Он включает расположение зон отдыха, дорог, зелёных насаждений, инфраструктуры и жилых зон. Генплан разрабатывается с учётом требований законодательства и утверждается государственными органами.</p>
+                                    <a href="" class="more">
+                                        <span>Подробнее</span>
+                                        <img src="imgs/icons/arrow.svg" alt="arrow">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="box">
+                                        <img src="imgs/img7.jpg" alt="map" class="box__bg">
+                                        <div class="box__inner">
+                                            <p>Это документ, определяющий общую концепцию развития и планировку территории для строительства загородных поселений.</p>
+                                            <div class="d-sm-flex mt-3">
+                                                <button type="button" class="btn-border fs-md me-sm-4 me-lg-5 mb-2 mb-sm-0">
+                                                    <img src="imgs/icons/play-button.svg" alt="play-button">
+                                                    <span>Видео о генплане</span>
+                                                </button>
+                                                <button type="button" class="btn-border fs-md">
+                                                    <img src="imgs/icons/gallery.svg" alt="play-button">
+                                                    <span>Примеры</span>
+                                                </button>
+                                            </div>
+                                            <a href="" class="more mt-3 mt-sm-4 mt-md-5">
+                                                <span>Подробнее</span>
+                                                <img src="imgs/icons/arrow.svg" alt="arrow">
+                                            </a>
+                                        </div>
+                                        <div class="box__control-full">
+                                            <ul class="indicator">
+                                                <li>
+                                                    <div class="indicator-sale"></div>
+                                                    <span>В продаже</span>
+                                                </li>
+                                                <li>
+                                                    <div class="indicator-booked"></div>
+                                                    <span>Забронирован</span>
+                                                </li>
+                                                <li>
+                                                    <div class="indicator-sold"></div>
+                                                    <span>Продан</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container mt-5 position-relative">
+                            <img src="imgs/icons/down.svg" alt="down" class="d-block icon-down mx-auto">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <section class="sec11">
+            <div class="container">
+                <h2>Наши работы</h2>
+                <div class="row row-cols-sm-2 row-cols-lg-3 g-4 justify-content-center">
+                    <div>
+                        <img src="imgs/img4.jpg" alt="Генплан п. Осорогино" class="project-img">
+                        <h4>Генплан п. Осорогино</h4>
+                    </div>
+                    <div>
+                        <img src="imgs/img4.jpg" alt="Генплан п. Осорогино" class="project-img">
+                        <h4>Генплан п. Осорогино</h4>
+                    </div>
+                    <div>
+                        <img src="imgs/img4.jpg" alt="Генплан п. Осорогино" class="project-img">
+                        <h4>Генплан п. Осорогино</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="callback">
+            <div class="container position-relative">
+                <div class="row gx-0">   
+                    <div class="col-lg-6 col-xxl-5">
+                        <form class="callback-form" action="">
+                            <h3>Узнать <strong>что можно сделать</strong> для моего поселка </h3>
+                            <div class="mb-3">
+                                <label for="userName" class="form-label mb-0">Ваше имя</label>
+                                <input type="text" class="form-control fs-md" id="userName" placeholder="Ваше имя">
+                            </div>
+                            <div class="mb-4">
+                                <label for="userPhone" class="form-label mb-0">Ваше телефон</label>
+                                <input type="tel" class="form-control fs-md" id="userPhone" placeholder="Ваше телефон">
+                            </div>
+                            <button type="button" class="btn-fill w-100 fs-lg mb-3">Узнать</button>
+                            <p class="fs-xs lh-1">Нажимая кнопку Узнать вы соглашаетесь с <a href="" class="text-decoration-underline lh-1">Обработкой персональных данных</a></p>
+                        </form>
+                    </div>
+                    <div class="d-none d-lg-block col-6 col-xxl-7 position-relative">
+                        <img class="callback__bg-1" src="imgs/bg/callback-bg.png" alt="callback-bg">
+                        <img class="callback__bg-2" src="imgs/woman.png" alt="woman">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec8">
+            <div class="container position-relative">
+                <h2 class="simple">С нами <strong>работают</strong></h2>
+                <div class="brands">
+                    <img src="imgs/brands/asset.png" alt="asset">
+                    <img src="imgs/brands/экопарк.png" alt="экопарк">
+                    <img src="imgs/brands/familypark.png" alt="familypark">
+                    <img src="imgs/brands/elki.png" alt="elki">
+                    <img src="imgs/brands/freedom.png" alt="freedom">
+                    <img src="imgs/brands/osorgin.png" alt="osorgin">
+                    <img src="imgs/brands/sunvillage.png" alt="sunvillage">
+                    <img src="imgs/brands/сибирские владения.png" alt="сибирские владения">
+                    <img src="imgs/brands/криводанова.png" alt="криводанова">
+                    <img src="imgs/brands/вишня.png" alt="вишня">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footerGrid">
+                <div class="footerGrid__logo">
+                    <img src="imgs/logo.png" alt="АВАНТИ" class="img-fluid">
+                    <p class="fs-xs mt-2">© АВАНТИ 2024</p>
+                </div>
+                <div class="footerGrid__menu">
+                    <div class="row row-cols-lg-2 row-cols-xxl-3 g-3">
+                        <div>
+                            <ul>
+                                <li><a href="#plan">Генплан</a></li>
+                                <li><a href="#construction">Ход строительства</a></li>
+                                <li><a href="#house">Визуализация дома</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="#village-site">Визуализация интерьера</a></li>
+                                <li><a href="#visualization">Визуализация поселка</a></li>
+                                <li><a href="#tour">3д тур по дому</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerGrid__contacts">
+                    <div class="d-xl-flex align-items-center">
+                        <ul class="social">
+                            <li><a href=""><img src="imgs/icons/viber.svg" alt="viber"></a></li>
+                            <li><a href=""><img src="imgs/icons/wapp.svg" alt="wapp"></a></li>
+                            <li><a href=""><img src="imgs/icons/tg.svg" alt="tg"></a></li>
+                        </ul>
+                        <a href="tel:+79879424488" class="d-block fs-md fw-5 ms-xl-2 mt-2 mt-xl-0">+7 987 942-44-88</a>
+                    </div>
+                    <div class="mt-4">
+                        <h4>Остались вопросы?</h4>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#formModal" class="btn-fill fs-sm fw-7 w-100">Задать</button>
+                    </div>
+                </div>
+                <div class="footerGrid__links">
+                    <div class="row row-cols-sm-2 row-cols-lg-3">
+                        <div><a href="#geography" class="fs-xs text-decoration-underline">География строительства</a></div>
+                        <div><a href="" class="fs-xs text-decoration-underline">Политика конфеденциальности</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="formModal" data-bs-scroll="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <form class="callback-form position-relative z-1" action="">
+                    <h3>Узнать <strong>что можно сделать</strong> для моего поселка </h3>
+                    <div class="mb-3">
+                        <label for="userName" class="form-label mb-0">Ваше имя</label>
+                        <input type="text" class="form-control fs-md" id="userName" placeholder="Ваше имя">
+                    </div>
+                    <div class="mb-4">
+                        <label for="userPhone" class="form-label mb-0">Ваше телефон</label>
+                        <input type="tel" class="form-control fs-md" id="userPhone" placeholder="Ваше телефон">
+                    </div>
+                    <button type="button" class="btn-fill w-100 fs-lg mb-3">Узнать</button>
+                    <p class="fs-xs lh-1">Нажимая кнопку Узнать вы соглашаетесь с <a href="" class="text-decoration-underline lh-1">Обработкой персональных данных</a></p>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
