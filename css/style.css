@@ -558,13 +558,10 @@ button {
 }
 
 @media (min-width: 1400px) {
-  .container-fluid {
-    padding: 0vw 10vw;
-  }
-}
-@media (min-width: 1200px) {
-  .container-fluid {
-    padding: 0vw 12vw;
+  .xxl-full {
+    width: 100%;
+    max-width: 100%;
+    padding: 0vw 5vw;
   }
 }
 
