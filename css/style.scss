@@ -479,6 +479,9 @@ button {
     @media (min-width: 1400px) {
         padding: 0vw 10vw;
     }
+    @media (min-width: 1200px) {
+        padding: 0vw 12vw;
+    }
 }
 
 
@@ -882,6 +885,7 @@ header {
     height: 100vh;
 }
 .sec9 {
+    position: relative;
     height: 100vh;
     background-image: url(../imgs/bg/sec9-right.png), radial-gradient(ellipse, #2F2F2F, var(--bg-color));
     background-repeat: no-repeat;
@@ -891,9 +895,19 @@ header {
     color: #fff;
     padding-top: 100px;
     @include flex(column, center, stretch, nowrap);
+    @media (max-width:991.98px) {
+        min-height: 100vh;
+        height: fit-content;
+        padding-bottom: 50px;
+    }
 }
 
 .icon-down {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 10;
+    transform: tr;
     max-width: 70px;
     @media (max-width:1399.98px) {
         max-width: 50px;
@@ -903,6 +917,7 @@ header {
     }
 }
 .sec10 {
+    position: relative;
     height: 100vh;
     background-image: url(../imgs/bg/sec10-left.png), radial-gradient(ellipse, #2F2F2F, var(--bg-color));
     background-position: 0% 100%, 50% 50%;
@@ -911,6 +926,11 @@ header {
     background-repeat: no-repeat;
     color: #fff;
     @include flex(column, center, stretch, nowrap);
+    @media (max-width:991.98px) {
+        min-height: 100vh;
+        height: fit-content;
+        padding: 50px 0px;
+    }
 }
 
 .sec11 {
@@ -1025,3 +1045,4 @@ footer {
         }
     }
 }
+
